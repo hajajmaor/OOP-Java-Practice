@@ -14,7 +14,7 @@ public class FunctionsParameters {
 
 	public static void main(String[] args) {
 		int number = 8;
-		int[] arrTemp = new int[10];
+		// int[] arrTemp = new int[10];
 
 		int[] arr = { 5, 8, 7, 6, 2, 5, 4, 7 };
 		// להריץ עם דיבגר על שורה 19

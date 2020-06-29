@@ -1,19 +1,17 @@
 package tirgol4;
 
-import java.util.Scanner;
-
 public class ClothingItem {
-//שגיאות כתיב בשם המחלקה לפנות לאליאורה
+	// שגיאות כתיב בשם המחלקה לפנות לאליאורה
 	private String size;
 	private String color;
 	private String brand;
 
 	public ClothingItem(String size, String color, String brand) {
-//		this.brand = brand;
+		// this.brand = brand;
 		this.setBrand(brand);
-//		this.color = color;
+		// this.color = color;
 		this.setColor(color);
-//		this.size = size;
+		// this.size = size;
 		this.setSize(size);
 	}
 
@@ -28,12 +26,12 @@ public class ClothingItem {
 		color = color.toLowerCase();
 
 		// בוטלה לצורך דוגמה
-//		for (String colorFromArray : colors) {
-//			if (color.equals(colorFromArray)) {
-//				inArray = true;
-//				break;
-//			}
-//		}
+		// for (String colorFromArray : colors) {
+		// if (color.equals(colorFromArray)) {
+		// inArray = true;
+		// break;
+		// }
+		// }
 
 		for (int i = 0; i < colors.length; i++) {
 			if (color.equals(colors[i])) {

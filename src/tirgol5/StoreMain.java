@@ -15,10 +15,6 @@ public class StoreMain {
 		st1.addShirt(s1);
 		st1.addShirt(s2);
 		System.out.println(st1);
-		ClothingItem ci1 = new ClothingItem("red", "bags bunny");
-		//
-		//
-		Humen h1 = new Humen("Micky", p1, s1);
 
 	}
 
